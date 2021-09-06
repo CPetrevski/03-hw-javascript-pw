@@ -27,3 +27,4 @@ THEN the password is either displayed in an alert or written to the page
 ## Method ##
 
 Created a Variable List in the parent js file. Used lower case and upper case letters, numbers and all the special charcters from a standard keyboard.
+ 
