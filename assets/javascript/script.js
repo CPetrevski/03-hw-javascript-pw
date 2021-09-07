@@ -14,7 +14,7 @@ generateBtn.addEventListener("click", writePassword);
 
   
 
-// Character Variables
+// Character Variables to store characters in array.
 var lowerCaseChar = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var upperCaseChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var numberChar = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
@@ -84,7 +84,7 @@ function generatePassword() {
     for (var p = 0; p < userEntry; p++) {  
       this.finalPassword.push(this.combineCharacters[Math.floor(Math.random() * this.combineCharacters.length)]);
         };
-        // Using .join you can return the array as a string
+        // Using .join you can return the array as a string.
         var final = this.finalPassword.join("");
         return final;
 };
