@@ -27,4 +27,13 @@ THEN the password is either displayed in an alert or written to the page
 ## Method ##
 
 Created a Variable List in the parent js file. Used lower case and upper case letters, numbers and all the special charcters from a standard keyboard.
- 
+Created empty variable called combine characters, which has an empty array that will be used to store the random characters chosen.
+Created a Variable called finalPassword which will display all the characters that were randomised and at the length the user had chosen into its final form.
+
+Created a generatePassword function.
+
+Created a prompt for the user entry which will check for a numerical value and also a value between 8-128. Will display an alert box with a warning message if the user has entered an incorrect value.
+
+Created 4 variables for choosing different options for the password. Each will run a if statement if confirmed to run a ForLoop to push the characters chosen into the empty array combineCharacters. A confirm method is used for the popup choice. 
+
+Created a ForLoop which checks the userEntry variable. Will push combineCharacters into finalPassword. Creates a varibale named final which uses the join method to concatenate all of the elements into the array and convert into a string. Which is then displayed on the webpage as the random password.
