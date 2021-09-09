@@ -36,7 +36,7 @@ Created a prompt for the user entry which will check for a numerical value and a
 
 Created 4 variables for choosing different options for the password. Each will run a if statement if confirmed to run a ForLoop to push the characters chosen into the empty array combineCharacters. A confirm method is used for the popup choice. 
 
-Created a ForLoop which checks the userEntry variable. Will push combineCharacters into finalPassword. Creates a varibale named final which uses the join method to concatenate all of the elements into the array and convert into a string. Which is then displayed on the webpage as the random password.
+Created a ForLoop which checks the userEntry variable for number of characters. Will push combineCharacters into finalPassword at random. Creates a varibale named final which uses the join method to concatenate all of the elements into the array and convert into a string. Which is then displayed on the webpage as the random password.
 
 Tested Password generator and working properly.
 

@@ -86,5 +86,5 @@ function generatePassword() {
         };
         // Using .join you can return the array as a string.
         var final = this.finalPassword.join("");
-        return final;
+        return final; 
 };
